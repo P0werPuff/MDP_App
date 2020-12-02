@@ -14,7 +14,7 @@ namespace MDP_App
         public MainPage()
         {
             InitializeComponent();
-            profileImage.Source = ImageSource.FromFile("joda.png");
+            profileImage.Source = ImageSource.FromFile("joda.png"); //
             aboutList.ItemsSource = GetMenuList();
             var homePage = typeof(Views.AboutPage);
             Detail = new NavigationPage((Page)Activator.CreateInstance(homePage));
