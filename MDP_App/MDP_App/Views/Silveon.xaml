@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP_App.Views.Silveon">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Label Text="Информация" Font="20" TextColor="Orange" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Илья Силвеон Филатов&#10;Игрок команды Fate.Deaser&#10;Играет за класс Медик&#10;&#10;Участник:&#10;Daily Cup 1/16&#10;Impact 1 1/8&#10;Impact 2 1/16&#10;PRO.Challengers Season III 1/32&#10;&#10;Игрок заполучил достижение&#10;Принять участие в турнире «Синдикат»&#10;Принять участие в турнире «Армагеддон»&#10;Принять участие в одном из турниров события «Горгона»&#10;Принять участие в одном из турниров события «Темные самураи»&#10;Стать участником PRO.Challengers&#10;Принять участие в одном из турниров «Берсерк»&#10;Стать участником Warface Challenge Cup&#10;Стать участником Fast Cup"
+                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

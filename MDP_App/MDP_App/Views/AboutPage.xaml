@@ -4,10 +4,9 @@
              x:Class="MDP_App.Views.AboutPage">
     <ContentPage.Content>
         <StackLayout>
-            <Image x:Name="profileImage"></Image>
-            <Label Text="Info minust" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Siia pnae pikk tekst ise endast!!"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

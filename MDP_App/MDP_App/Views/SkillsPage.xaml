@@ -4,9 +4,9 @@
              x:Class="MDP_App.Views.SkillsPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" Margin="10">
-            <Label Text="Minu teadmised" Font="20" TextColor="Red" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Siia kirjuta mida sa tead"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Информация" Font="20" TextColor="Red" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Игровой никнейм:Трейз&#10;&#10; Победитель первого сезона Warface Pro Champions&#10;Участник девяти лан-финалов, медик.&#10;Двукратный MVP турниров серии Open Cup&#10;&#10;Победитель:&#10;PRO.Champions Season I&#10;Warface K.I.W.I.: Pro League Playoff&#10;Warface Open Cup: Season 11&#10;Warface Open Cup: Season X&#10;&#10;Игрок первым заполучил достижения «Золото финала»&#10;«Финалист Warface PRO I»&#10;был награжден особой короной в профиле!"
+                   TextColor="White" HorizontalTextAlignment="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

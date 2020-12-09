@@ -14,7 +14,7 @@ namespace MDP_App
         public MainPage()
         {
             InitializeComponent();
-            profileImage.Source = ImageSource.FromFile("joda.png"); //
+            profileImage.Source = ImageSource.FromFile("wf.jpg"); //
             aboutList.ItemsSource = GetMenuList();
             var homePage = typeof(Views.AboutPage);
             Detail = new NavigationPage((Page)Activator.CreateInstance(homePage));
@@ -26,31 +26,52 @@ namespace MDP_App
             var list = new List<MasterMenuItems>();
             list.Add(new MasterMenuItems()
             {
-                Text = "Minust",
-                Detail = "Lühike info",
-                ImagePath = "about.png",
+                Text = "Али Таfгиев",
+                Detail = "Трейfз",
+                ImagePath = "trfeiz.jpg",
                 TargetPage = typeof(Views.AboutPage)
             });
             list.Add(new MasterMenuItems()
             {
-                Text = "Minu kohemus",
-                Detail = "Natuke rohkem minu kogemisest",
-                ImagePath = "list.jpg",
+                Text = "Лёня Поздняков ", //
+                Detail = "-К4питанПаника-",
+                ImagePath = "panic.jpg",
                 TargetPage = typeof(Views.ExperiencePage)
             });
             list.Add(new MasterMenuItems()
             {
-                Text = "Minu oskused",
-                Detail = "Natuke rohkem minu oskustest",
-                ImagePath = "skills.png",
+                Text = "Али Тагиев",
+                Detail = "Трейз",
+                ImagePath = "treiz.jpg",
                 TargetPage = typeof(Views.SkillsPage)
             });
             list.Add(new MasterMenuItems()
             {
-                Text = "Minu võidud",
-                Detail = "Ma olen uhke",
-                ImagePath = "awards.jpg",
+                Text = "Вадим Зубрицкий",
+                Detail = "Джетфайер",
+                ImagePath = "dzet.png",
                 TargetPage = typeof(Views.AchievemnetsPage)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Егор Широков",
+                Detail = "КвикСк0уп",
+                ImagePath = "kviki.png",
+                TargetPage = typeof(Views.Kvik)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Кирилл Нехожин",
+                Detail = "-Кл4уд.",
+                ImagePath = "cloud.jpg",
+                TargetPage = typeof(Views.Cloud)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Илья Филатов",
+                Detail = "Силвеон",
+                ImagePath = ".jpg",
+                TargetPage = typeof(Views.Silveon)
             });
             return list;
         }

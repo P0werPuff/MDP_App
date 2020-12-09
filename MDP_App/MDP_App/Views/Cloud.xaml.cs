@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace MDP_App.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AboutPage : ContentPage
+    public partial class Cloud : ContentPage
     {
-        public AboutPage()
+        public Cloud()
         {
             InitializeComponent();
         }
