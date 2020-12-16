@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.AboutPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Label Text="Иноформация" FontSize="20" TextColor="SkyBlue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Евгений Черди Базив&#10;Игроком команды StreamTeam&#10;Победитель:&#10;Warface Open Cup: Season XV. Wild Card II&#10;Warface Syndicate: PTB Wild Card&#10;Warface Syndicate: PTB Cup II&#10;Warface Open Cup: Season XII"
+                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

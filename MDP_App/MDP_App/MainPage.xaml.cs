@@ -26,9 +26,9 @@ namespace MDP_App
             var list = new List<MasterMenuItems>();
             list.Add(new MasterMenuItems()
             {
-                Text = "Али Таfгиев",
-                Detail = "Трейfз",
-                ImagePath = "trfeiz.jpg",
+                Text = "АЕвгений Базив",
+                Detail = "Черди",
+                ImagePath = "cherdy.jpg",
                 TargetPage = typeof(Views.AboutPage)
             });
             list.Add(new MasterMenuItems()
