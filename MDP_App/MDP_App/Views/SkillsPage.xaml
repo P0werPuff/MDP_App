@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.SkillsPage">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Margin="10">
-            <Label Text="Информация" Font="20" TextColor="Red" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Игровой никнейм:Трейз&#10;&#10; Победитель первого сезона Warface Pro Champions&#10;Участник девяти лан-финалов, медик.&#10;Двукратный MVP турниров серии Open Cup&#10;&#10;Победитель:&#10;PRO.Champions Season I&#10;Warface K.I.W.I.: Pro League Playoff&#10;Warface Open Cup: Season 11&#10;Warface Open Cup: Season X&#10;&#10;Игрок первым заполучил достижения «Золото финала»&#10;«Финалист Warface PRO I»&#10;был награжден особой короной в профиле!"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        <StackLayout>
+            <Label
+                Text="Игровой никнейм:Трейз Победитель первого сезона Warface Pro Champions Участник девяти лан-финалов, медик. Двукратный MVP турниров серии Open Cup Победитель: PRO.Champions Season I Warface K.I.W.I.: Pro League Playoff Warface Open Cup: Season 11 Warface Open Cup: Season X Игрок первым заполучил достижения «Золото финала» «Финалист Warface PRO I» был награжден особой короной в профиле!"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="treiz"
+                Source="Resources/drawable/treiz.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

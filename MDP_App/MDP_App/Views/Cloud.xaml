@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.Cloud">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Margin="10">
-            <Label Text="Информация" Font="20" TextColor="Orange" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Кирилл -Кл4уд. Нехожин&#10;Игрок команды CrowCrowd&#10;&#10;Победитель:&#10;3st place: K.I.W.I.:FFA West&#10;1st place K.I.W.I:Challenge League&#10;1st place Fast Cup 7&#10;7st place WPL&#10;3-4 place Syndicate&#10;3-4 place Armageddon&#10;1st place WSI 2&#10;1st place OpenCup XV&#10;&#10;Игрок первым заполучил достижение&#10;«Великий медик»&#10;и был награжден особой короной в профиле!"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        <StackLayout>
+            <Label
+                Text="Кирилл -Кл4уд. Нехожин Игрок команды CrowCrowd Победитель: 3st place: K.I.W.I.:FFA West 1st place K.I.W.I:Challenge League 1st place Fast Cup 7 7st place WPL 3-4 place Syndicate 3-4 place Armageddon 1st place WSI 2 1st place OpenCup XV Игрок первым заполучил достижение «Великий медик» и был награжден особой короной в профиле!"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="cloud"
+                Source="Resources/drawable/cloud.png"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

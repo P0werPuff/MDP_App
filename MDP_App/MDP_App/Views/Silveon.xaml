@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.Silveon">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Margin="10">
-            <Label Text="Информация" Font="20" TextColor="Orange" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Илья Силвеон Филатов&#10;Игрок команды Fate.Deaser&#10;Играет за класс Медик&#10;&#10;Участник:&#10;Daily Cup 1/16&#10;Impact 1 1/8&#10;Impact 2 1/16&#10;PRO.Challengers Season III 1/32&#10;&#10;Игрок заполучил достижение&#10;Принять участие в турнире «Синдикат»&#10;Принять участие в турнире «Армагеддон»&#10;Принять участие в одном из турниров события «Горгона»&#10;Принять участие в одном из турниров события «Темные самураи»&#10;Стать участником PRO.Challengers&#10;Принять участие в одном из турниров «Берсерк»&#10;Стать участником Warface Challenge Cup&#10;Стать участником Fast Cup"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        <StackLayout>
+            <Label
+                Text="Илья Силвеон Филатов Игрок команды Fate.Deaser Играет за класс Медик Участник: Daily Cup 1/16 Impact 1 1/8 Impact 2 1/16 PRO.Challengers Season III 1/32 Игрок заполучил достижение Принять участие в турнире «Синдикат» Принять участие в турнире «Армагеддон» Принять участие в одном из турниров события «Горгона» Принять участие в одном из турниров события «Темные самураи» Стать участником PRO.Challengers Принять участие в одном из турниров «Берсерк» Стать участником Warface Challenge Cup Стать участником Fast Cup"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="Silveon"
+                Source="Resources/drawable/sileveon.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

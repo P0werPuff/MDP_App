@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.Kvik">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Margin="10">
-            <Label Text="Информация" Font="20" TextColor="Green" HorizontalTextAlignment="Center"></Label>
-            <Label Text="Егор КвикСк0уп Широков&#10;Игрок команды CrowCrowd&#10;&#10;Победитель:&#10;PRO.Champions Season II&#10;Champions Season III&#10;WSI Season 2: АВАНПОСТ&#10;Warface Open Cup: Season XV&#10;Armageddon League:Lan-Finals&#10;Warface Special Invitational&#10;Warface Open Cup XIV&#10;Warface Open Cup: Season XIII&#10;Absolute Power: Pro League&#10;Warface Open Cup: Season XII&#10;Атлас войны: WARFEST&#10;Warface Open Cup:Season 11&#10;Warface Open Cup:Seasos&#10;&#10;Игрок первым заполучил достижения&#10;«Золотой Дубль»&#10;«Герой нашего времени»&#10;«Образцовый штурмовик»&#10;«Легендарный штурмовик»&#10;был награжден особой короной в профиле!"
-                   TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        <StackLayout>
+            <Label
+                Text="Егор КвикСк0уп Широков Игрок команды CrowCrowd Победитель: PRO.Champions Season II Champions Season III WSI Season 2: АВАНПОСТ Warface Open Cup: Season XV Armageddon League:Lan-Finals Warface Special Invitational Warface Open Cup XIV Warface Open Cup: Season XIII Absolute Power: Pro League Warface Open Cup: Season XII Атлас войны: WARFEST Warface Open Cup:Season 11 Warface Open Cup:Seasos Игрок первым заполучил достижения «Золотой Дубль» «Герой нашего времени» «Образцовый штурмовик» «Легендарный штурмовик» был награжден особой короной в профиле!"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="kvik"
+                Source="Resources/drawable/kvik.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
         </StackLayout>
     </ContentPage.Content>
-</ContentPage> 
+</ContentPage>
