@@ -17,7 +17,7 @@ namespace MDP_App.Views
             InitializeComponent();
             TapGestureRecognizer tap = new TapGestureRecognizer();
             tap.Tapped += Tap_Tapped;
-            Silveon.GestureRecognizers.Add(tap);
+            silveon.GestureRecognizers.Add(tap);
 
         }
 

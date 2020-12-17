@@ -12,8 +12,8 @@
                 Padding="0"
                 />
             <Image
-                x:Name="Silveon"
-                Source="Resources/drawable/sileveon.jpg"
+                x:Name="silveon"
+                Source="Resources/drawable/silveon.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"
